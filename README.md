@@ -21,4 +21,4 @@
 > **Let’s connect.** If you see something interesting (or broken!) in my repos, open an issue or drop a PR—collaboration is the best part of coding.
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=10" alt="Top Languages">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Monzama&layout=compact&langs_count=10" alt="Top Languages">
