@@ -2,15 +2,13 @@
 
 - 🛠️  **What I build:**  
   • Security-focused tools and automation scripts  
-  • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)  
-  • DevOps helpers that streamline CI/CD pipelines  
+  • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)   
 
 - 💡  **How I work:**  
   Research-driven, detail-oriented, and never afraid to lift the hood on complex systems—whether that’s optimizing data structures or debugging network configs.
 
 - 🌱  **Currently exploring:**  
-  • Cloud-native security (IaC scanning, policy as code)  
-  • Rust for high-performance geo-apps  
+  • Cloud-native security (IaC scanning, policy as code)    
   • Open-source contributions in cybersecurity tooling
 
 - 🚀  **Fun facts:**  
