@@ -21,4 +21,10 @@
 > **Let’s connect.** If you see something interesting (or broken!) in my repos, open an issue or drop a PR—collaboration is the best part of coding.
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Monzama&layout=compact&langs_count=10" alt="Top Languages">
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/
+?username=KendallDazeYach            # your GitHub handle
+&layout=compact                     # “compact” or omit for full bar chart
+&langs_count=8                      # number of languages to show (default 5, max 10)
+&theme=tokyonight                   # any of ~70 themes
+&exclude_repo=old-uni-project       # comma-separated list to ignore
+)
