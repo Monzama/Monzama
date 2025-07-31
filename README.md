@@ -22,9 +22,9 @@
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/
-?username=KendallDazeYach            # your GitHub handle
+?username=Monzama    
 &layout=compact                     # “compact” or omit for full bar chart
 &langs_count=8                      # number of languages to show (default 5, max 10)
 &theme=tokyonight                   # any of ~70 themes
-&exclude_repo=old-uni-project       # comma-separated list to ignore
-)
+&exclude_repo=old-uni-project       # comma-separated list to ignored
+)  
