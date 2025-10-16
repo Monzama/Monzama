@@ -2,7 +2,9 @@
 
 - 🛠️  **What I build:**  
   • Security-focused tools and automation scripts
+
   • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)
+
   • A bit of AI 
 
 - 💡  **How I work:**  
