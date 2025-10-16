@@ -1,15 +1,16 @@
 👋 Hi there! I’m Kendall, a recent Computer Science graduate who loves hunting down inefficiencies and shipping elegant fixes.
 
 - 🛠️  **What I build:**  
-  • Security-focused tools and automation scripts  
+  • Security-focused tools and automation scripts
   • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)
   • A bit of AI 
 
 - 💡  **How I work:**  
   Research-driven, detail-oriented, and never afraid to lift the hood on complex systems—whether that’s optimizing data structures or debugging network configs.
+  Not afraid to dive into the unknown, learning and growing along the way.
 
 - 🌱  **Currently exploring:**  
-  • Cloud-native security (IaC scanning, policy as code)  
+  • Tool and Language expansion  
   • Automation integration in current role
 
 - 🚀  **Fun facts:**  
