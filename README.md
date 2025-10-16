@@ -2,7 +2,9 @@
 
 - 🛠️  **What I build:**  
   • Security-focused tools and automation scripts
+
   • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)
+
   • A bit of AI 
 
 - 💡  **How I work:**  
@@ -11,10 +13,12 @@
 
 - 🌱  **Currently exploring:**  
   • Tool and Language expansion  
+
   • Automation integration in current role
 
 - 🚀  **Fun facts:**  
   • Built a cottage water system and a garage from the ground up  
+
   • DIY car maintenance addict  
 
 > **Let’s connect.** If you see something interesting (or broken!) in my repos, open an issue or drop a PR—collaboration is the best part of coding.
