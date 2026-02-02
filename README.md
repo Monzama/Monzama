@@ -1,27 +1,25 @@
-👋 Hi there! I’m Kendall, a recent Computer Science graduate who loves hunting down inefficiencies and shipping elegant fixes.
+I’m Kendall. I build and maintain automation, infrastructure, and security-adjacent tooling. Most of my work is about reducing fragility in systems that are already too complex.
 
-- 🛠️  **What I build:**  
-  • Security-focused tools and automation scripts
+What I work on
 
-  • GIS & spatial-analysis experiments (QuadTrees, GridFiles, shadow mapping)
+Infrastructure automation and VM orchestration (libvirt/KVM, Terraform, ESXi)
 
-  • A bit of AI 
+Security-minded tooling and internal utilities
 
-- 💡  **How I work:**  
-  Research-driven, detail-oriented, and never afraid to lift the hood on complex systems—whether that’s optimizing data structures or debugging network configs.
-  Not afraid to dive into the unknown, learning and growing along the way.
+GIS and spatial experiments (QuadTrees, GridFiles, shadow mapping)
 
-- 🌱  **Currently exploring:**  
-  • Tool and Language expansion  
+AI tools only when they remove real manual effort
 
-  • Automation integration in current role
+How I work
+I prefer understanding how things actually behave before abstracting them. I spend a lot of time in configs, logs, and failure cases. If something is flaky, manual, or unclear, I try to make it boring and deterministic.
 
-- 🚀  **Fun facts:**  
-  • Built a cottage water system and a garage from the ground up  
+Current focus
 
-  • DIY car maintenance addict  
+Improving automation in my day-to-day work
 
-> **Let’s connect.** If you see something interesting (or broken!) in my repos, open an issue or drop a PR—collaboration is the best part of coding.
+Expanding depth in tools and languages I already use
+
+Cutting unnecessary steps out of infrastructure workflows
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Monzama&layout=compact&langs_count=8&theme=tokyonight)  
