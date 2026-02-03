@@ -21,5 +21,6 @@ I’m **Kendall**,
 - Cutting unnecessary steps out of infrastructure workflows
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KendallDazeYach&layout=compact&langs_count=8&hide=html,css&exclude_repo=KendallDazeYach.github.io&cache_seconds=21600)
+![Top Langs](./profile/top-langs.svg)
+
 
