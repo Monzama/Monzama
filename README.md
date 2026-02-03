@@ -20,7 +20,7 @@ I’m **Kendall**,
 
 - Cutting unnecessary steps out of infrastructure workflows
 
-
+# Stats
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Monzama/Monzama/main/profile/top-langs-dark.svg">
   <img src="https://raw.githubusercontent.com/Monzama/Monzama/main/profile/top-langs-light.svg" alt="Top languages">
