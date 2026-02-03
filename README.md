@@ -21,6 +21,10 @@ I’m **Kendall**,
 - Cutting unnecessary steps out of infrastructure workflows
 
 
-![Top Langs](./profile/top-langs.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <img src="./profile/top-langs-light.svg" alt="Top languages">
+</picture>
+
 
 
