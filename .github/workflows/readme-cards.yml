@@ -12,7 +12,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -20,18 +19,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # required for rebase
+          fetch-depth: 0
 
       - name: Generate top languages (base)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &langs_count=8
-            &hide=html,css
-            &exclude_repo=${{ github.repository_owner }}.github.io
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&exclude_repo=${{ github.repository_owner }}.github.io"
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,13 +33,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &langs_count=8
-            &hide=html,css
-            &exclude_repo=${{ github.repository_owner }}.github.io
-            &theme=dark
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&exclude_repo=${{ github.repository_owner }}.github.io&theme=dark"
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -53,13 +41,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &langs_count=8
-            &hide=html,css
-            &exclude_repo=${{ github.repository_owner }}.github.io
-            &theme=default
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&exclude_repo=${{ github.repository_owner }}.github.io&theme=default"
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
