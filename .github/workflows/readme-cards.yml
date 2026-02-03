@@ -5,42 +5,80 @@ on:
     - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
+concurrency:
+  group: readme-cards
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # required for rebase
 
-      - name: Generate top languages card
+      - name: Generate top languages (base)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&exclude_repo=${{ github.repository_owner }}.github.io
+          options: >
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &langs_count=8
+            &hide=html,css
+            &exclude_repo=${{ github.repository_owner }}.github.io
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate dark card
+
+      - name: Generate top languages (dark)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&theme=dark
+          options: >
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &langs_count=8
+            &hide=html,css
+            &exclude_repo=${{ github.repository_owner }}.github.io
+            &theme=dark
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Generate light card
+
+      - name: Generate top languages (light)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,css&theme=default
+          options: >
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &langs_count=8
+            &hide=html,css
+            &exclude_repo=${{ github.repository_owner }}.github.io
+            &theme=default
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit cards
+
+      - name: Commit and push cards
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
 
+          git add profile/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update README cards"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
