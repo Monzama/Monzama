@@ -22,9 +22,10 @@ I’m **Kendall**,
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs-light.svg" alt="Top languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Monzama/Monzama/main/profile/top-langs-dark.svg">
+  <img src="https://raw.githubusercontent.com/Monzama/Monzama/main/profile/top-langs-light.svg" alt="Top languages">
 </picture>
+
 
 
 
